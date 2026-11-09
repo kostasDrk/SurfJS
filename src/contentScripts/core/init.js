@@ -22,7 +22,7 @@ else{
 	    catch(err){ var sAPI = uuidv4().replaceAll("-", "_"); } // For cross-origin frames, generate new token
 	}
 
-	warn(`sAPI: ${sAPI}`)
+	warn(`sAPI: ${sAPI} (${window.location})`)
 
 	/** Attach dummy script for passing sAPI in MAIN world content scripts. After sAPI has
 	    been retrieved by all content scripts, this script is removed before any other JS code
