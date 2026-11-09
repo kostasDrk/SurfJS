@@ -1,0 +1,21 @@
+{
+	"name" : "SurfJS",
+	"version" : "0.1",
+	"description" : "Real-Time and Context-Agnostic Surrogate Functionalities for Privacy Invasive JavaScript",
+	"manifest_version" : 3,
+	"permissions" : [
+		"scripting"
+	],
+	"host_permissions" : [
+		"*://*/*",
+		"<all_urls>"
+	],
+	"background" : {
+		"service_worker" : "background/sw.js",
+		"type" : "module"
+	},
+	"action" : {
+		"default_title" : "SurfJS",
+		"default_popup" : "popup/popup.html"
+	}
+}
