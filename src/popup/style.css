@@ -1,0 +1,96 @@
+body {background: rgb(2,0,36); font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif; color: rgb(199, 216, 212);}
+body {background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 1%, rgba(79,108,113,1) 100%); }
+.title {
+	color: rgb(199, 216, 212);
+	text-align: center;
+}
+.plugins {
+	color: rgb(199, 216, 212);
+	font-weight: 800;
+}
+
+.button-24 {
+  background: #FF6969;
+  border: 1px solid #FF6969;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 2px;
+  min-height: 2px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF6969;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+.button-25 {
+  background: #72BF78;
+  border: 1px solid #72BF78;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 2px;
+  min-height: 2px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-25:hover,
+.button-25:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #72BF78;
+}
+
+.button-25:active {
+  opacity: .5;
+}
+
+#toggle {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.toggleBtnEnable {
+	filter: invert(71%) sepia(22%) saturate(753%) hue-rotate(74deg) brightness(92%) contrast(88%);
+}
+
+.toggleBtnDisable {
+	filter: invert(50%) sepia(85%) saturate(659%) hue-rotate(319deg) brightness(103%) contrast(100%);
+}

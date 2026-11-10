@@ -4,7 +4,8 @@
 	"description" : "Real-Time and Context-Agnostic Surrogate Functionalities for Privacy Invasive JavaScript",
 	"manifest_version" : 3,
 	"permissions" : [
-		"scripting"
+		"scripting",
+		"storage"
 	],
 	"host_permissions" : [
 		"*://*/*",
