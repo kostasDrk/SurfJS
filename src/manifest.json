@@ -18,5 +18,6 @@
 	"action" : {
 		"default_title" : "SurfJS",
 		"default_popup" : "popup/popup.html"
-	}
+	},
+	"options_page": "settings/index.html"
 }

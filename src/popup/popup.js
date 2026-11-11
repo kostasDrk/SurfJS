@@ -88,3 +88,8 @@ browser.tabs.query({ active: true, currentWindow: true }, async function (tabs) 
 	if(enabled) addDisableButton(tabs[0].id);
 	else addEnableButton(tabs[0].id);
 });
+
+document.getElementById("settings").addEventListener("click", () => {
+	if(browser.runtime.openOptionsPage) browser.runtime.openOptionsPage();
+	else window.open(browser.runtime.getURL('settings/index.html'));
+});
